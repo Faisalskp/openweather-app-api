@@ -1,6 +1,6 @@
 {
   "name": "openweather-app-api",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "provides historical, current and forecasted weather data via light-speed APIs.",
   "main": "index.js",
   "scripts": {
