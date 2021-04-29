@@ -1,0 +1,39 @@
+{
+  "name": "openweather-app-api",
+  "version": "1.0.0",
+  "description": "provides historical, current and forecasted weather data via light-speed APIs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faisalskp/data-openweather-api.git"
+  },
+  "keywords": [
+    "openweather",
+    "forecasted",
+    "weather",
+    "weather-api",
+    "api-weather",
+    "open-weather-map",
+    "weather-map",
+    "open-weather-api",
+    "current-temprature",
+    "weekly-temprature",
+    "monthly-temprature",
+    "current-location-temprature",
+    "temp",
+    "temprature",
+    "api",
+    "openweather-api",
+    "openweather-app",
+    "openweather-app-api"
+  ],
+  "author": "faisal saleem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faisalskp/data-openweather-api/issues"
+  },
+  "homepage": "https://github.com/Faisalskp/data-openweather-api#readme"
+}
