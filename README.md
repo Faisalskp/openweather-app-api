@@ -39,7 +39,12 @@ openweather-app-api require properties:
 * *locatonName* -_String_ ("Pakistan")
   
 ## Note
-   You can get weather details using both properties coordinatesObj and locatonName.
-   You can use only coordinatesObj for weather details with token.
-   You can use only locatonName for weather details with token.
+
+*  You can get weather details using both properties coordinatesObj and locatonName.
+*  You can use only coordinatesObj for weather details with token.
+*  You can use only locatonName for weather details with token.
+   
+
+   
+   
 
