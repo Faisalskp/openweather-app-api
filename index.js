@@ -58,6 +58,6 @@ appWeather.findByCoordinates(coordinatesObj)
 appWeather.findByLocatonName(locatonName)
 
 
-module.exports.weatherApp = weatherApp
+module.exports.appWeather = appWeather
 
 
