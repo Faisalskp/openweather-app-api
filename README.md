@@ -9,7 +9,7 @@ provides historical, current and forecasted weather data via light-speed APIs..
 Then...
 
 ```
-import { openweather-app-api } from 'openweather-app-api';
+import { openweather_app_api } from 'openweather-app-api';
 
 var token = '' // add your api token 
 
@@ -28,6 +28,7 @@ var locatonName = "" // add target name
    If you don't have lat and lng value the you can go the step4
 
 * *Step 4* : Add location name in locatonName as string. like "UK,USA,India,Pakistan"
+
 
 ## Properties
 
