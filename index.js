@@ -1,5 +1,5 @@
 var http = require('http');
-var token = "" // add your api token 
+var token = "6eb79054aa616c5b0ae1cf3df4db6d3f" // add your api token 
 var coordinatesObj = { "lat": "44", "lng": "70" } //add lat and lng values
 var locatonName = "Pakistan" // add target name 
 
@@ -43,17 +43,19 @@ class weatherApp {
     }
   }
 }
-const appWeather = new weatherApp(token)
 
 async function Coordinates(obj, apikey) {
   let data = await http.get(`http://api.openweathermap.org/data/2.5/onecall?lat=${obj.lat}&lon=${obj.lon}&units=metric&appid=${apikey}`)
+  console.log(data)
   return data
 }
 async function findByName(name, apikey) {
   let data = await http.get(`http://api.openweathermap.org/data/2.5/weather?q=${name}&units=metric&appid=${apikey}`)
+  console.log(data)
   return data
 }
 
+const appWeather = new weatherApp(token)
 appWeather.findByCoordinates(coordinatesObj)
 appWeather.findByLocatonName(locatonName)
 

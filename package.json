@@ -3,7 +3,6 @@
   "version": "1.0.4",
   "description": "provides historical, current and forecasted weather data via light-speed APIs.",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
