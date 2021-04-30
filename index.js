@@ -1,5 +1,5 @@
 var http = require('http');
-var token = "6eb79054aa616c5b0ae1cf3df4db6d3f" // add your api token 
+var token = "" // add your api token 
 var coordinatesObj = { "lat": "44", "lng": "70" } //add lat and lng values
 var locatonName = "Pakistan" // add target name 
 

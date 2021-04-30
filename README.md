@@ -9,7 +9,7 @@ provides historical, current and forecasted weather data via light-speed APIs..
 Then...
 
 ```
-import { openweather_app_api } from 'openweather_app_api';
+import { appWeather } from 'openweather_app_api';
 
 var token = '' // add your api token 
 
