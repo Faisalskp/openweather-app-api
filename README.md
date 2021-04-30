@@ -9,42 +9,29 @@ provides historical, current and forecasted weather data via light-speed APIs..
 Then...
 
 ```
-import { appWeather } from 'openweather_app_api';
+import { coordinates,findByLocatonName } from "openweather-app-api";
 
-var token = '' // add your api token 
+var apikey = ''
 
-var coordinatesObj = { "lat": "", "lng": "" } //add lat and lng values 
+var coordinatesObj = { "lat": "43", "lng": "70" } 
 
-var locatonName = "" // add target name 
+var location = "Pakistan" 
 
 ```
 
 ## How to Use
 
-* *Step 1* : Please login https://openweathermap.org/
-* *Step 2* : Get API key from "My API Keys" like "######################"
-* *Step 3* : Add lat and lng values in coordinatesObj 
-   
-   If you don't have lat and lng value the you can go the step4
+*  async function usingCoordinates(apikey,coordinatesObj){
+    let data = await coordinates(apikey,coordinatesObj)
+    console.log(data,'usingCoordinates')
+   }
 
-* *Step 4* : Add location name in locatonName as string. like "UK,USA,India,Pakistan"
-
-
-## Properties
-
-openweather-app-api provides historical, current and forecasted weather data via light-speed APIs..
-openweather-app-api require properties:
-
-* *token* - _String_ ("################")
-* *coordinatesObj* - _Object_ (with "lat" and "lng" values)
-* *locatonName* -_String_ ("Pakistan")
-  
-## Note
-
-*  You can get weather details using both properties coordinatesObj and locatonName.
-*  You can use only coordinatesObj for weather details with token.
-*  You can use only locatonName for weather details with token.
-   
+*  async function usingLocationName(apikey,location){
+    let data = await findByLocatonName(apikey, location)
+    console.log(data,'usingLocationName')
+   }
+*  usingCoordinates(apikey,coordinatesObj)
+*  usingLocationName(apikey,location)
 
    
    
