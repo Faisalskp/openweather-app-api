@@ -73,6 +73,16 @@ step 3 : call the function
 
 ```
 
+# example coordinates
+
+```
+step 1 : clone/download https://github.com/Faisalskp/openweather-app-api
+step 2 : cd example coordinates
+step 3 : npm install
+step 4 : node index.js
+
+```
+
 # 2) findByLocatonName
 ```
 step 1 : make a function 
@@ -87,19 +97,27 @@ step 1 : make a function
 
 step 2 : call the method "findByLocatonName" eg, weatherApp.findByLocatonName( pass api key , pass location )
 
-       async function usingCoordinates(apikey, coordinatesObj) {
+      async function usingLocationName(apikey, location) {
          try {
             let data = await weatherApp.findByLocatonName(apikey, location)
             console.log(data, 'usingLocationName')
          } catch (error) {
             throw error
          }
-      }      
+      }     
 
 step 3 : call the function
 
       usingLocationName(apikey, location)
 
 ```
-   
 
+# example findByLocatonName
+
+```
+step 1 : clone/download https://github.com/Faisalskp/openweather-app-api
+step 2 : cd example findByLocationName
+step 3 : npm install
+step 4 : node index.js
+
+```
