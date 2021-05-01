@@ -1,6 +1,6 @@
 const weatherApp = require('openweather-app-api');
 
-var apikey = '6eb79054aa616c5b0ae1cf3df4db6d3f' 
+var apikey = '' 
 
 var location = "Pakistan"
 

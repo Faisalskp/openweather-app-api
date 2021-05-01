@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "openweather-app-api": "^1.1.0"
+    "openweather-app-api": "^1.1.1"
   }
 }
